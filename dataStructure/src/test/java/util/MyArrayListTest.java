@@ -1,6 +1,6 @@
 package util;
 
-import listLearn.entity.MyArrayList;
+import listLearn.util.MyArrayList;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
