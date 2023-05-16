@@ -58,6 +58,7 @@ public class CommonController {
 
             // 输出流，通过输出流将文件返回浏览器
             ServletOutputStream outputStream = response.getOutputStream();
+            System.out.println(basePath + name);
             response.setContentType("image/jpg");//告诉浏览器返回的是图片
             byte[] bytes = new byte[1024];
             int len = 0;
